@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+  overflow-x: clip;
+}
+
+@layer utilities {
+  .button {
+    @apply absolute top-2 right-2 bg-gray-800 text-white p-2 rounded-full hover:bg-gray-600 transition-colors;
+  }
+
+  .button2 {
+    @apply absolute ml-[3.6rem] mt-[9rem] bg-gray-800 text-white p-2 rounded-full hover:bg-gray-600 transition-colors;
+  }
+}
